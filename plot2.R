@@ -16,7 +16,7 @@ data <- data[index,]
 #Used reference:https://stat.ethz.ch/pipermail/r-help/2004-September/057069.html
 
 #Plot2
-png(filenam = "plot2.png")
+png(filename = "plot2.png")
 
 # Create plot with no x axis and no x axis label
 plot(seq_along(data[,"Global_active_power"]),data[,"Global_active_power"], 

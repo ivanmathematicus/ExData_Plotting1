@@ -16,7 +16,7 @@ data <- data[index,]
 #Used reference:https://stat.ethz.ch/pipermail/r-help/2004-September/057069.html
 
 #Plot3
-png(filenam = "plot3.png")
+png(filename = "plot3.png")
 
 plot(seq_along(data[,"Sub_metering_1"]),data[,"Sub_metering_1"], 
      ylab = "Energy sub metering", xaxt='n', xlab = NA, type = 'line')

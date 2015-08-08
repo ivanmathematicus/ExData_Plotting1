@@ -16,7 +16,7 @@ data <- data[index,]
 #Used reference:https://stat.ethz.ch/pipermail/r-help/2004-September/057069.html
 
 #Plot1 
-png(filenam = "plot1.png")
+png(filename = "plot1.png")
 
 # Create plot with no x and y axis and no x axis 
 hist(data[,"Global_active_power"], col = 'red' , main = "Global Active Power", 
